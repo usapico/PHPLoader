@@ -1,0 +1,996 @@
+{
+  "format": "phploader-dependency-inventory-v1",
+  "application": {
+    "name": "phploader",
+    "version": "1.0.1"
+  },
+  "scope": "Conservative production dependency closure from package-lock.json, including transitive and optional/peer type packages. Some entries may be removed by bundling/tree shaking. Electron installation/build tools are excluded; Electron runtime and its separate notices are included. This is not a complete Chromium component SBOM or a vulnerability clearance.",
+  "generation": "node scripts/generate-notices.mjs (use --check to verify checked-in outputs)",
+  "sourceChanges": "Application bundling/minification only; no upstream dependency source patches are maintained by PHPLoader.",
+  "packages": [
+    {
+      "name": "@codemirror/autocomplete",
+      "version": "6.20.3",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/autocomplete",
+      "repository": "https://code.haverbeke.berlin/codemirror/autocomplete",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/autocomplete/-/autocomplete-6.20.3.tgz",
+      "integrity": "sha512-tlosUqb+3BbxCxZdu4tKeRghPFC+QM7q4X5YhKV2eCmPG+1r2F3f4AaSz5sCrFqUtX4Jh20VFTKecl16MgiV9g==",
+      "dependencies": {
+        "@codemirror/language": "^6.0.0",
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.17.0",
+        "@lezer/common": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/commands",
+      "version": "6.11.1",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/commands",
+      "repository": "https://code.haverbeke.berlin/codemirror/commands",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/commands/-/commands-6.11.1.tgz",
+      "integrity": "sha512-O/4hG3SC1YwcmQ0d2UVNDs+AsaNWd1iHVxbTeEBuqH+6bExAiPK3iS/BvpY6rZGURALv4ZD3sIgcCmRvw3ehBg==",
+      "dependencies": {
+        "@codemirror/language": "^6.0.0",
+        "@codemirror/state": "^6.7.0",
+        "@codemirror/view": "^6.27.0",
+        "@lezer/common": "^1.1.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-css",
+      "version": "6.3.1",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-css",
+      "repository": "https://github.com/codemirror/lang-css",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-css/-/lang-css-6.3.1.tgz",
+      "integrity": "sha512-kr5fwBGiGtmz6l0LSJIbno9QrifNMUusivHbnA1H6Dmqy4HZFte3UAICix1VuKo0lMPKQr2rqB+0BkKi/S3Ejg==",
+      "dependencies": {
+        "@codemirror/autocomplete": "^6.0.0",
+        "@codemirror/language": "^6.0.0",
+        "@codemirror/state": "^6.0.0",
+        "@lezer/common": "^1.0.2",
+        "@lezer/css": "^1.1.7"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-html",
+      "version": "6.4.12",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-html",
+      "repository": "https://code.haverbeke.berlin/codemirror/lang-html",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-html/-/lang-html-6.4.12.tgz",
+      "integrity": "sha512-pw2ReWKUqSkbvh76RAT4NYxiogRu+PWkR2ukAwO9uOgrm8uipkzjtKKtNpyeAQwHOqxEeSvAXZ6vr3AfyB9y/w==",
+      "dependencies": {
+        "@codemirror/autocomplete": "^6.0.0",
+        "@codemirror/lang-css": "^6.0.0",
+        "@codemirror/lang-javascript": "^6.0.0",
+        "@codemirror/language": "^6.4.0",
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.17.0",
+        "@lezer/html": "^1.3.12",
+        "@lezer/common": "^1.0.0",
+        "@lezer/css": "^1.1.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-javascript",
+      "version": "6.2.5",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-javascript",
+      "repository": "https://github.com/codemirror/lang-javascript",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-javascript/-/lang-javascript-6.2.5.tgz",
+      "integrity": "sha512-zD4e5mS+50htS7F+TYjBPsiIFGanfVqg4HyUz6WNFikgOPf2BgKlx+TQedI1w6n/IqRBVBbBWmGFdLB/7uxO4A==",
+      "dependencies": {
+        "@codemirror/autocomplete": "^6.0.0",
+        "@codemirror/language": "^6.6.0",
+        "@codemirror/lint": "^6.0.0",
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.17.0",
+        "@lezer/common": "^1.0.0",
+        "@lezer/javascript": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-json",
+      "version": "6.0.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-json",
+      "repository": "https://github.com/codemirror/lang-json",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-json/-/lang-json-6.0.2.tgz",
+      "integrity": "sha512-x2OtO+AvwEHrEwR0FyyPtfDUiloG3rnVTSZV1W8UteaLL8/MajQd8DpvUb2YVzC+/T18aSDv0H9mu+xw0EStoQ==",
+      "dependencies": {
+        "@codemirror/language": "^6.0.0",
+        "@lezer/json": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-markdown",
+      "version": "6.5.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-markdown",
+      "repository": "https://code.haverbeke.berlin/codemirror/lang-markdown",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-markdown/-/lang-markdown-6.5.2.tgz",
+      "integrity": "sha512-AwBOdkWYuA//WcM0xO5PfHPUcmz/O2i5o0Nsg1U69SII/loCJlFI1Romd9xp2HYb1kYJRGZotyqRghuHH5n8Kw==",
+      "dependencies": {
+        "@codemirror/autocomplete": "^6.7.1",
+        "@codemirror/lang-html": "^6.0.0",
+        "@codemirror/language": "^6.3.0",
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.0.0",
+        "@lezer/markdown": "^1.0.0",
+        "@lezer/common": "^1.2.1"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lang-php",
+      "version": "6.0.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/lang-php",
+      "repository": "https://github.com/codemirror/lang-php",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lang-php/-/lang-php-6.0.2.tgz",
+      "integrity": "sha512-ZKy2v1n8Fc8oEXj0Th0PUMXzQJ0AIR6TaZU+PbDHExFwdu+guzOA4jmCHS1Nz4vbFezwD7LyBdDnddSJeScMCA==",
+      "dependencies": {
+        "@codemirror/lang-html": "^6.0.0",
+        "@codemirror/language": "^6.0.0",
+        "@codemirror/state": "^6.0.0",
+        "@lezer/common": "^1.0.0",
+        "@lezer/php": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/language",
+      "version": "6.12.4",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/language",
+      "repository": "https://code.haverbeke.berlin/codemirror/language",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/language/-/language-6.12.4.tgz",
+      "integrity": "sha512-1q4PaT+o6PbgpkJt4Q8Fv5XJxTy4FUZ4MWETtyiDw3J0Pyr9E2vqcKL+k9wcvjNTIsauxvE7OfmWj3FRPHQ76A==",
+      "dependencies": {
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.23.0",
+        "@lezer/common": "^1.5.0",
+        "@lezer/highlight": "^1.0.0",
+        "@lezer/lr": "^1.0.0",
+        "style-mod": "^4.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/lint",
+      "version": "6.9.7",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@codemirror/lint",
+      "repository": "https://code.haverbeke.berlin/codemirror/lint",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/lint/-/lint-6.9.7.tgz",
+      "integrity": "sha512-28/+iWLYxKxsvGYhSYL7zaCZqLz5+FFFDq9tVsvGv9kv8RY4fFAchJ5WX9M3YrrRlTIsECjsXPqeNgnSmNP2dg==",
+      "dependencies": {
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.42.0",
+        "crelt": "^1.0.5"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/search",
+      "version": "6.7.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/search",
+      "repository": "https://code.haverbeke.berlin/codemirror/search",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/search/-/search-6.7.2.tgz",
+      "integrity": "sha512-gUYkYhT2+n/+VGZ+8EzE5WFkYZUZYm1VOKDudIsNqh42uRVQJ0a6Yss9sdKT3MeOYfuL1N6AZA57oza0Oyr0LA==",
+      "dependencies": {
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.37.0",
+        "crelt": "^1.0.5"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/state",
+      "version": "6.7.6",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/state",
+      "repository": "https://code.haverbeke.berlin/codemirror/state",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/state/-/state-6.7.6.tgz",
+      "integrity": "sha512-kAz+AncRtKuIknedxT1bq4XwXv4UowhbkHU1myPrtVb/jZtImWuV5BXzv5vK6i3kYACsdiZiQKFQQ5Mq7elW8w==",
+      "dependencies": {
+        "@marijn/find-cluster-break": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@codemirror/view",
+      "version": "6.43.13",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/@codemirror/view",
+      "repository": "https://code.haverbeke.berlin/codemirror/view",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@codemirror/view/-/view-6.43.13.tgz",
+      "integrity": "sha512-sihaFrUzAsYBQsL9J2t69y8nfMQGwcYmggAZsk+kjPbjYZMyuf2hU8tUNTZ+P+isb6XRr8JE22TZlJxBoVdH1A==",
+      "dependencies": {
+        "@codemirror/state": "^6.7.0",
+        "crelt": "^1.0.6",
+        "style-mod": "^4.1.0",
+        "w3c-keyname": "^2.2.4"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/common",
+      "version": "1.5.3",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/common",
+      "repository": "https://code.haverbeke.berlin/lezer/common",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/common/-/common-1.5.3.tgz",
+      "integrity": "sha512-H0iErY4e43LpXbYDyBci5W4v/RwTgGV3YzYOlJPiGZ8RY8w51kVE+xLn1tg3Z6UmSfyETvtsUK3r7YsgDQEI7Q==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/css",
+      "version": "1.3.8",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/css",
+      "repository": "https://code.haverbeke.berlin/lezer/css",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/css/-/css-1.3.8.tgz",
+      "integrity": "sha512-EJn1zcL9qoDptief6ipWKZKLiOpXkxSe0+t8CH9oiMVcZlq7NBWrjCqnc/41EIjeo/ITj1gFFiATdTkaJDL+Og==",
+      "dependencies": {
+        "@lezer/common": "^1.2.0",
+        "@lezer/lr": "^1.3.0",
+        "@lezer/highlight": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/highlight",
+      "version": "1.2.5",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/highlight",
+      "repository": "https://code.haverbeke.berlin/lezer/highlight",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/highlight/-/highlight-1.2.5.tgz",
+      "integrity": "sha512-O1GMVKgtf5YspFaRzpmqkVgMtIk2HG9uMAbH6wdAIdNh3TVzCsch/+cRi+6l2//UGDKe6NB9BW3cvuR5ezMQ0w==",
+      "dependencies": {
+        "@lezer/common": "^1.3.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/html",
+      "version": "1.3.13",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/html",
+      "repository": "https://github.com/lezer-parser/html",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/html/-/html-1.3.13.tgz",
+      "integrity": "sha512-oI7n6NJml729m7pjm9lvLvmXbdoMoi2f+1pwSDJkl9d68zGr7a9Btz8NdHTGQZtW2DA25ybeuv/SyDb9D5tseg==",
+      "dependencies": {
+        "@lezer/lr": "^1.0.0",
+        "@lezer/highlight": "^1.0.0",
+        "@lezer/common": "^1.2.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/javascript",
+      "version": "1.5.5",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/javascript",
+      "repository": "https://code.haverbeke.berlin/lezer/javascript",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/javascript/-/javascript-1.5.5.tgz",
+      "integrity": "sha512-sWg4yX1J6XW67AaAynVt0iwF0M5c+np36TEu+P2ifAJ8haRYvHnWDV28r1jdwnJehWCwXECutAUy56K4RBZIyg==",
+      "dependencies": {
+        "@lezer/lr": "^1.3.0",
+        "@lezer/common": "^1.2.0",
+        "@lezer/highlight": "^1.1.3"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/json",
+      "version": "1.0.3",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/json",
+      "repository": "https://github.com/lezer-parser/json",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/json/-/json-1.0.3.tgz",
+      "integrity": "sha512-BP9KzdF9Y35PDpv04r0VeSTKDeox5vVr3efE7eBbx3r4s3oNLfunchejZhjArmeieBH+nVOpgIiBJpEAv8ilqQ==",
+      "dependencies": {
+        "@lezer/common": "^1.2.0",
+        "@lezer/highlight": "^1.0.0",
+        "@lezer/lr": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "7e744ae18ef84389d576469a5781172b0d50b7981111109f6da7cbc6b4188288"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/lr",
+      "version": "1.4.10",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/lr",
+      "repository": "https://code.haverbeke.berlin/lezer/lr",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/lr/-/lr-1.4.10.tgz",
+      "integrity": "sha512-rnCpTIBafOx4mRp43xOxDJbFipJm/c0cia/V5TiGlhmMa+wsSdoGmUN3w5Bqrks/09Q/D4tNAmWaT8p6NRi77A==",
+      "dependencies": {
+        "@lezer/common": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/markdown",
+      "version": "1.7.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/markdown",
+      "repository": "https://code.haverbeke.berlin/lezer/markdown",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/markdown/-/markdown-1.7.2.tgz",
+      "integrity": "sha512-iTkYvoVcKt3WkeL7qUDyXHONZEwLio4wj8KTNi2dnjQEXBZKMV63BpQrPqfsM+OkvuRbiSTAcycYAsQzLhRNoQ==",
+      "dependencies": {
+        "@lezer/common": "^1.5.0",
+        "@lezer/highlight": "^1.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "54bd812a6d334e0c438b78a43cea74b67e882739fd3450115ddc7c52be5706c1"
+        }
+      ]
+    },
+    {
+      "name": "@lezer/php",
+      "version": "1.0.6",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@lezer/php",
+      "repository": "https://code.haverbeke.berlin/lezer/php",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/@lezer/php/-/php-1.0.6.tgz",
+      "integrity": "sha512-QJ2xNXPmsm/Z3IpThq8fnJrEIVpxhsIoj6GZBW0JYEd/l9zxpJZW216X4fzqQY4vgpdGIumypvI4uQjd4tnYtw==",
+      "dependencies": {
+        "@lezer/common": "^1.2.0",
+        "@lezer/highlight": "^1.0.0",
+        "@lezer/lr": "^1.1.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "568902fb66eaf1f11750e966b33fd7b5d7c618e65af09f35ef843635bcf5f1ba"
+        }
+      ]
+    },
+    {
+      "name": "@marijn/find-cluster-break",
+      "version": "1.0.4",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@marijn/find-cluster-break",
+      "repository": "https://code.haverbeke.berlin/marijn/find-cluster-break",
+      "homepage": "https://code.haverbeke.berlin/marijn/find-cluster-break",
+      "resolved": "https://registry.npmjs.org/@marijn/find-cluster-break/-/find-cluster-break-1.0.4.tgz",
+      "integrity": "sha512-Wy0V7+SGUjnF9/TkiM1hKVDPj7jKXduPNboMVtHTA8dySMURWqfg/JZ9E2Sq8JgSJmkl7k7Qe9FLeMSrSraWmQ==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "9360b00fdd091f05c783b568bdd46c679c41b72415599252de98949462ea1acb"
+        }
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@types/react",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react",
+      "resolved": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+      "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+      "dependencies": {
+        "csstype": "^3.2.2"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/trusted-types",
+      "version": "2.0.7",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/@types/trusted-types",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/trusted-types",
+      "resolved": "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz",
+      "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "argparse",
+      "version": "3.0.2",
+      "license": "PSF-2.0",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/argparse",
+      "repository": "https://github.com/nodeca/argparse",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/argparse/-/argparse-3.0.2.tgz",
+      "integrity": "sha512-mFdDM6WqWKraGLsVb+C9CahPnzTXOefAOLq3jYcca2YZ8bEWpr++Tzj+zSaKW9+X9L5uSxcm1AZ3Y6aZJ09OhQ==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "ab745c5061d1dea43a3885e5b4b6befc7e983954954775c5736debeefcdfd89b"
+        }
+      ]
+    },
+    {
+      "name": "codemirror",
+      "version": "6.0.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/codemirror",
+      "repository": "https://github.com/codemirror/basic-setup",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/codemirror/-/codemirror-6.0.2.tgz",
+      "integrity": "sha512-VhydHotNW5w1UGK0Qj96BwSk/Zqbp9WbnyK2W/eVMv4QyF41INRGpjUhFJY7/uDNuudSc33a/PKr4iDqRduvHw==",
+      "dependencies": {
+        "@codemirror/autocomplete": "^6.0.0",
+        "@codemirror/commands": "^6.0.0",
+        "@codemirror/language": "^6.0.0",
+        "@codemirror/lint": "^6.0.0",
+        "@codemirror/search": "^6.0.0",
+        "@codemirror/state": "^6.0.0",
+        "@codemirror/view": "^6.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "05c6130cda97e7600ca91427a41e8a065efcf82365fc0293e7de80faec494c07"
+        }
+      ]
+    },
+    {
+      "name": "crelt",
+      "version": "1.0.7",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/crelt",
+      "repository": "https://code.haverbeke.berlin/marijn/crelt",
+      "homepage": "https://code.haverbeke.berlin/marijn/crelt",
+      "resolved": "https://registry.npmjs.org/crelt/-/crelt-1.0.7.tgz",
+      "integrity": "sha512-aK6BbWfhf4U/wCcLHKPJl/xa6VkVstRaPywWtMKGwuOLc/wZTyQYuoxgvZnNsBvv7Kg3YTBQYYBCggcviQczuA==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "23852ebf6aef7fadffc92514b3c5df163a8651f2c3ed0dbb494cb49d93bd5de5"
+        }
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/csstype",
+      "repository": "https://github.com/frenic/csstype",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+      "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+        }
+      ]
+    },
+    {
+      "name": "dompurify",
+      "version": "3.4.16",
+      "license": "(MPL-2.0 OR Apache-2.0)",
+      "licenseSelected": "Apache-2.0",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/dompurify",
+      "repository": "https://github.com/cure53/DOMPurify",
+      "homepage": "https://github.com/cure53/DOMPurify",
+      "resolved": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.16.tgz",
+      "integrity": "sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==",
+      "dependencies": {
+        "@types/trusted-types": "^2.0.7"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "LICENSE-MPL",
+          "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+        }
+      ]
+    },
+    {
+      "name": "electron",
+      "version": "44.5.0",
+      "license": "MIT",
+      "category": "desktop-runtime",
+      "direct": false,
+      "path": "node_modules/electron",
+      "repository": "https://github.com/electron/electron",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/electron/-/electron-44.5.0.tgz",
+      "integrity": "sha512-gVUJ6DZcRY80Alh/krc7uwjjCfxjZ3T2suvpBmHsN6zE4ShAc4vzG14kbMgT+ZteaPLddoKg4Pie0CjDdIDdyg==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+        }
+      ]
+    },
+    {
+      "name": "entities",
+      "version": "8.1.0",
+      "license": "BSD-2-Clause",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/entities",
+      "repository": "https://github.com/fb55/entities",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/entities/-/entities-8.1.0.tgz",
+      "integrity": "sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164"
+        }
+      ]
+    },
+    {
+      "name": "htmx.org",
+      "version": "2.0.11",
+      "license": "0BSD",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/htmx.org",
+      "repository": "https://github.com/bigskysoftware/htmx",
+      "homepage": "https://htmx.org/",
+      "resolved": "https://registry.npmjs.org/htmx.org/-/htmx.org-2.0.11.tgz",
+      "integrity": "sha512-Thx/WtpeOQqSrqBCw/A1cwGJGg4UrVa3+sW0GmrM3p4gJgO89ecH4qtbnyzDDWFvBTqjnIMCgELTNt636dtamA==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "d3d2456f76414f2456104660ebd65aff1c04cd7966b942bdabd63f3cdb316a38"
+        }
+      ]
+    },
+    {
+      "name": "linkify-it",
+      "version": "6.1.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/linkify-it",
+      "repository": "https://github.com/markdown-it/linkify-it",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/linkify-it/-/linkify-it-6.1.0.tgz",
+      "integrity": "sha512-wJ/TwpSDTLepCrQoYWYIExIKg5Zchex2Nn5yk2mFnB+6PtdkHtyLx742md9csRjjOnGkKIS/RrbY7l8D6gT9Vw==",
+      "dependencies": {
+        "uc.micro": "^3.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "95e3f7f0e81e9b4940cdfaa1956aaff5e4dfd2fb1565041e7c78eb9a606f23e3"
+        }
+      ]
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.49.0",
+      "license": "ISC",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/lucide-react",
+      "repository": "https://github.com/lucide-icons/lucide",
+      "homepage": "https://lucide.dev",
+      "resolved": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.49.0.tgz",
+      "integrity": "sha512-ApfaNM4/7jBrVopqLJ84Jz8TMQ1Q1JeZ1PmKh25aeS3E1FTVcMkSh1bEQB7dfzdIrwXRP8p3z4AJjTIHHb5IIA==",
+      "dependencies": {
+        "@types/react": "*",
+        "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+        }
+      ]
+    },
+    {
+      "name": "markdown-it",
+      "version": "15.0.2",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/markdown-it",
+      "repository": "https://github.com/markdown-it/markdown-it",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-15.0.2.tgz",
+      "integrity": "sha512-q4IGxMv56jCqT4OCRCADBoDP3LO4MhmTXjFbphHPXs4g3j9Xg5RDnxqN8IF/3vIWEU+VCnUq+7JUg/cfy2E6Qw==",
+      "dependencies": {
+        "argparse": "^3.0.0",
+        "entities": "^8.0.0",
+        "linkify-it": "^6.0.0",
+        "mdurl": "^2.1.0",
+        "punycode.js": "^2.3.1",
+        "uc.micro": "^3.0.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473"
+        }
+      ]
+    },
+    {
+      "name": "mdurl",
+      "version": "2.1.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/mdurl",
+      "repository": "https://github.com/markdown-it/mdurl",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/mdurl/-/mdurl-2.1.0.tgz",
+      "integrity": "sha512-1+HBaOx0zi/dQWht8rNv9MYf9qqpqL/kxI0hXImU6Y547zM6Sni8BQibt7ifgMcYtQg41ao3Ivd6cnSM86inpg==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "6b6a356c4337e2446841f30f3cdf7e7023af8c5260b5e347c0f987b9f6aa2644"
+        }
+      ]
+    },
+    {
+      "name": "punycode.js",
+      "version": "2.3.1",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/punycode.js",
+      "repository": "https://github.com/mathiasbynens/punycode.js",
+      "homepage": "https://mths.be/punycode",
+      "resolved": "https://registry.npmjs.org/punycode.js/-/punycode.js-2.3.1.tgz",
+      "integrity": "sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE-MIT.txt",
+          "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/react",
+      "repository": "https://github.com/react/react",
+      "homepage": "https://react.dev/",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+      "integrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": true,
+      "path": "node_modules/react-dom",
+      "repository": "https://github.com/react/react",
+      "homepage": "https://react.dev/",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+      "integrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+      "dependencies": {
+        "scheduler": "^0.28.0",
+        "react": "^19.3.0"
+      },
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/scheduler",
+      "repository": "https://github.com/react/react",
+      "homepage": "https://react.dev/",
+      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+      "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "style-mod",
+      "version": "4.1.4",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/style-mod",
+      "repository": "https://code.haverbeke.berlin/marijn/style-mod",
+      "homepage": "https://code.haverbeke.berlin/marijn/style-mod",
+      "resolved": "https://registry.npmjs.org/style-mod/-/style-mod-4.1.4.tgz",
+      "integrity": "sha512-XXWIQt633/EpAFx8aZDOTjBzrCaGmhvEQlQo6MVPfa2OzO2cWo+4hV9h+6UkHYlXGfy+ODXKUdP7Pthmcu5ATw==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "cb4474e26547397169061d3586c00022cda5330a1b64fa13e872319f3b63aff1"
+        }
+      ]
+    },
+    {
+      "name": "uc.micro",
+      "version": "3.0.0",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/uc.micro",
+      "repository": "https://github.com/markdown-it/uc.micro",
+      "homepage": "",
+      "resolved": "https://registry.npmjs.org/uc.micro/-/uc.micro-3.0.0.tgz",
+      "integrity": "sha512-U3PppEkleoTnIfi8BozMx3yju3qc/L6SwqWo2Sw+54PX+PX0q9I+r1Um5HCmqD7n9VDX5/v3vQH/AjA6deDdtw==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+        }
+      ]
+    },
+    {
+      "name": "w3c-keyname",
+      "version": "2.2.8",
+      "license": "MIT",
+      "category": "production-dependency-closure",
+      "direct": false,
+      "path": "node_modules/w3c-keyname",
+      "repository": "https://github.com/marijnh/w3c-keyname",
+      "homepage": "https://github.com/marijnh/w3c-keyname#readme",
+      "resolved": "https://registry.npmjs.org/w3c-keyname/-/w3c-keyname-2.2.8.tgz",
+      "integrity": "sha512-dpojBhNsCNN7T82Tm7k26A6G9ML3NkhDsnw9n/eoxSRlVBB4CEtIQ/KTCLI2Fwf3ataSXRhYFkQi3SlnFwPvPQ==",
+      "dependencies": {},
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "sha256": "869c30f368eb08735e779027b9f4bc9fea2f39624351856aebe42741f0bc0884"
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "electron": "44.5.0",
+    "release": "https://github.com/electron/electron/releases/tag/v44.5.0",
+    "source": "https://github.com/electron/electron/tree/v44.5.0",
+    "licenseFiles": [
+      {
+        "path": "LICENSE.electron.txt",
+        "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+      },
+      {
+        "path": "LICENSES.chromium.html",
+        "sha256": "7b328b8c7463ac9bfc7dc648c751533517c8441a0b5b21047d6c0b2620e60d70"
+      }
+    ],
+    "sourceAvailabilityReview": "See docs/DISTRIBUTION.md. Runtime LGPL component corresponding sources and publication must be reviewed in addition to retaining these notices."
+  }
+}
