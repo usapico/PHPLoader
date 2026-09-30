@@ -1,0 +1,2 @@
+cf000aedb01525213c8428dc79b9af06836889930b4b9acc55aa039d7ae8591b  PHPLoader-1.0.1-runtime-sources.zip
+2b4c57863f5d6a6c6f647541cc744d9f78bf8ce960c6bb02b845ac2c005ca27e  PHPLoader-1.0.1-windows-x64.zip
